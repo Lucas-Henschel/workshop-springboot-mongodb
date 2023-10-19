@@ -5,7 +5,33 @@ Documentação da API de ligação entre um usuário e post, implementando a arq
 
 - <h3> Post </h3>
 
+---
+
 - <h3> User </h3>
+
+### List all user
+
+    GET http://localhost:8080/users
+
+#### Response
+
+    Status: 200
+
+    json
+    [
+      {
+        "id": 1,
+        "name": "Gabriel",
+        "email": "gabriel@gmail.com",
+      },
+      {
+        "id": 2,
+        "name": "Maria",
+        "email": "maria@gmail.com",
+      }
+    ]
+
+
 
 ## 🛠 Tecnologias e Ferramentas
 
