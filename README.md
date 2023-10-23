@@ -31,7 +31,46 @@ Documentação da API de ligação entre um usuário e post, implementando a arq
       }
     ]
 
+#
 
+### Find by id
+
+    GET http://localhost:8080/users/:id
+
+#### Response
+
+    Status: 200
+
+    json
+    {
+      "id": 1,
+      "name": "Gabriel",
+      "email": "gabriel@gmail.com",
+    }
+
+#
+
+### Insert
+
+    POST http://localhost:8080/users
+
+#### Response
+
+    Status: 201
+
+    No content
+
+#
+
+### Delete
+
+    DELETE http://localhost:8080/users/:id
+
+#### Response
+
+    Status: 204
+
+    No content
 
 ## 🛠 Tecnologias e Ferramentas
 
